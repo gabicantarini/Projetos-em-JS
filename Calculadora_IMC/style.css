@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #1E68BC;
+    background: white;
+}
+
+.calculadora-imc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: -150px;
+    font-size: 13px;
+    color: rgb(30, 104, 188);
+    font-weight: 400;
+    padding: 30px;
+}
+
+.conteudo {
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    width: 50%;
+    color: #707070;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+
+.altura {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.peso {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.inputs input {
+    width: 120px;
+    padding: 6px 10px;
+    border: 1px solid #1f5eaf;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+button {
+    text-align: center;
+    border-radius: 20px;
+    color:  white;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.calcular {
+    background-color: #1F5EAF;
+}
+
+.limpar {
+    background-color: #FF5203;
+}
+
+.imc {
+    background: #ff5202;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin: 40px 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 30px;
+    
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    
+}
+
+.table-calc {
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.table-calc thead tr td {
+    background: #1f5eaf;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.table-calc tbody tr {
+    border-bottom: 1px solid #707070;
+    background: #fff;
+}
+
+.table-calc tbody tr.table-calc-blue td {
+    color: #1f5eaf;
+}
+
+.table-calc tbody tr td {
+    color: #707070;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dee2e7;
+}
+
+@media (min-width: 1201px) {
+    .conteudo {
+        
+        padding-left: 30px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 899px) and (min-width: 600px) {
+    .calculadora-imc {
+        margin-top: -20px;
+    }
+    .conteudo {
+        padding: 30px;
+    }
+    .table-calc {
+        width: 50%;
+        max-width: 600px; 
+    }
+}
+
+@media(max-width: 599px){
+    .calculadora-imc {
+        margin-top: -20px;
+        padding-left: 0px;
+    }
+    .conteudo {
+        padding: 30px;
+    }
+    .table-calc {
+        width: 35%;
+        max-width: 599px; 
+    }
+}
+
+@media(max-width: 499px) {
+    .calculadora-imc {
+        margin-top: -60px;
+    }
+    .conteudo {
+        padding: 30px;
+
+    }
+   
+    .table-calc {
+        width: 10%;
+        max-width: 350px; 
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .imc {
+        margin-left: 20px;
+        font-size: 15px;
+        width: 150px;
+    }
+    .altura{
+        width: 25%;
+    }
+    .peso {
+        width: 25%;
+    }
+
+    .inputs input {
+        width: 70%;
+    }
+    button {
+        font-size: 10px;
+    }
+}
+
+

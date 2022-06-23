@@ -1,0 +1,6 @@
+Introdução
+
+* DOM (Document Object Model), representação do HTML para o nosso JavaScript, acessível por uma palavra do JavaScript chamada document. Com ele manipulamos a página HTML sem alterar o código fonte. 
+* O método querySelector(), passanda como parâmetro o que queremos encontrar e Retorna o primeiro elemento encontrado dentro do documento
+* Nunca buscar no querySelector() pela tag, busque sempre pela tag
+* querySelector() vai retornar todos os elementos encontrados

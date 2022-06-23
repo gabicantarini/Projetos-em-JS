@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+
+<script>
+	
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+	
+    var multiplicador = 1;
+    var numeroTabuada = parseInt(prompt("Digite a tabuada que deseja consultar: "))
+
+    //Conseguimos fazer a repetição com for ou while. O resultado será o mesmo.
+    // multiplicador++ => pós incremento. Faz o incremento de 1 em 1 de forma automática
+    
+    for(multiplicador = 0; multiplicador <= 10; multiplicador++) {
+        mostra(numeroTabuada * multiplicador);
+    }
+
+    //while(multiplicador <= 10){
+    //    mostra(numeroTabuada * multiplicador);
+    //    multiplicador = multiplicador + 1;
+    //}
+
+   
+</script>
+
