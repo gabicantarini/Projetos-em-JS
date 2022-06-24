@@ -1,4 +1,4 @@
-import { Conta } from "./Conta.js";
+import { Conta } from "./Conta/Conta.js";
 
 export class ContaCorrente extends Conta{ //desse jeito fazemos a herança da classe conta
     static numeroDeContas = 0;     
