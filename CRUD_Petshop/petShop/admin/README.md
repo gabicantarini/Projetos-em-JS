@@ -29,16 +29,19 @@
 - Tratar erros com try/catch
 
 
+## Extra info 
+//abrir a pasta admin no vscode e 
+//rodar o json server: 
+//```js
+//json-server --watch db.json
+//```
+//1º npm install
+//2º npm instal --location==global
+//3º json-server --watch db.json
+//4º Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+//5º json-server --watch db.json
 
-abrir a pasta admin no vscode e 
-rodar o json server: 
-```js
-json-server --watch db.json
-```
-
-Rodar: browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
+//note: Rodar: browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
 
 
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-json-server --watch db.json
